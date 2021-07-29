@@ -455,6 +455,12 @@ main{
   display: block;
   text-transform: initial;
 }
+.three_block_link img:nth-child(2){
+  opacity: .6;
+}
+.three_block_link img:nth-child(2):hover{
+  opacity: 1;
+}
 .three_block_header{
   font-style: normal;
   font-weight: 600;
